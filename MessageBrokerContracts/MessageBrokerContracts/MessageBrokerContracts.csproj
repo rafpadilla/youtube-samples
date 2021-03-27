@@ -9,6 +9,7 @@
     <PackageTags>MessageBroker;Contracts;</PackageTags>
     <PackageReleaseNotes>Primera versión</PackageReleaseNotes>
     <NeutralLanguage>en-US</NeutralLanguage>
+    <RepositoryUrl>https://github.com/rafpadilla/samples</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
