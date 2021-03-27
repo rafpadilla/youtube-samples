@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Rafael Padilla</Authors>
+    <Company>Rafael Padilla</Company>
+    <Description>Contratos comunes para todos los proyectos</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>MessageBroker;Contracts;</PackageTags>
+    <PackageReleaseNotes>Primera versión</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MessageBrokerContracts.1.0.0.nupkg" />
+  </ItemGroup>
+
+</Project>
