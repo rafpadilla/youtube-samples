@@ -1,0 +1,31 @@
+﻿{
+  "AppSettings": {
+    "TimerIntervalSecs": 360,
+    "EnableTimer": false //When configuration is ready change to true
+  },
+  "CloudflareSettings": {
+    "Token": "cloudflare_token_with_dns_record_write_permission"
+  },
+  "DDNSSettings": [
+    {
+      "Name": "Friendly_name_for_your_dns_record",
+      "ZoneIdentifier": "zone_identifier_from_domain_example.com",
+      "Records": [
+        {
+          "type": "A",
+          "name": "mail.yourdomain.com",
+          "content": "{ip}",
+          "ttl": 1,
+          "proxied": false
+        },
+        {
+          "type": "A",
+          "name": "yourdomain.com",
+          "content": "{ip}",
+          "ttl": 1,
+          "proxied": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  microservice_ddns:
+    build: .
+    #image: microservice_ddns:latest
+    container_name: microservice_ddns
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
