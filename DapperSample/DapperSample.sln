@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperSample", "DapperSample\DapperSample.csproj", "{F5B373DF-81C9-4629-AAF4-BA598AA909B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E772EA99-222F-4360-B635-B744547C6ABF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5B373DF-81C9-4629-AAF4-BA598AA909B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B373DF-81C9-4629-AAF4-BA598AA909B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B373DF-81C9-4629-AAF4-BA598AA909B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B373DF-81C9-4629-AAF4-BA598AA909B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27955F9E-C0AE-49C1-90B9-F5E4A7C8F5A3}
+	EndGlobalSection
+EndGlobal
