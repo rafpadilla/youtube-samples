@@ -1,0 +1,48 @@
+html {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #5043ae;
+}
+
+body {
+    margin: 0;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid #00000022;
+    padding: 0 1rem;
+}
+
+    header nav a {
+        font-weight: bold;
+    }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+main {
+    display: flex;
+    height: 100%;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #DDDDDD;
+    padding: 1rem;
+}

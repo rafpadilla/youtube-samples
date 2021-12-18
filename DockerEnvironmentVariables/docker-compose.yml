@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  dockerenvironmentvariables:
+    image: ${DOCKER_REGISTRY-}dockerenvironmentvariables
+    container_name: ${ENV_PREFFIX}dockerenvironmentvariables
+    build:
+      context: .
+      dockerfile: DockerEnvironmentVariables/Dockerfile
+    ports:
+      - 80:80
+    environment:
+      - DOCKER_ENV_VARIABLE="variable desde el docker-compose [${ENV_PREFFIX}]"
+    env_file:
+      - "application_file.env"

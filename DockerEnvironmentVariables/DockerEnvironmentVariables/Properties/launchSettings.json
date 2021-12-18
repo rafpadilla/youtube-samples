@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "DockerEnvironmentVariables": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "VARIABLE_IN_LAUNCHER": "Custom environment value in launcher"
+      },
+      "applicationUrl": "http://localhost:5066",
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true
+    }
+  }
+}

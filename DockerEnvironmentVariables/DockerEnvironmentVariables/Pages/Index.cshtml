@@ -1,0 +1,14 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div>
+    <ul>
+        @foreach (var env in Model.EnvironmentVariables)
+        {
+            <li><strong>@env.Name</strong> -> @env.Value</li>
+        }
+    </ul>
+</div>
